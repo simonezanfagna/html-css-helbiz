@@ -195,5 +195,101 @@ header {
 }
 
 #third{
+  padding-bottom: 16px;
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.background{
+  background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.funzione{
+  width: 70%;
+  margin: 40px auto;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+.funzione h2 {
+  font-size: 32px;
+  left: 30px;
+  width: 25%;
+  position: relative;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+  float: left;
+}
+
+.steps{
+  right: 30px;
+  width: 25%;
+  float: right;
+  position: relative;
+}
+
+.steps h3{
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+.steps p{
+  font-size: 16px;
+  color: #373a3c;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.iphone{
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  max-height: 630px;
+  top: 160px;
+  z-index: 5;
+}
+
+.img_step1{
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  max-height: 525px;
+  top: 189px;
+}
+
+.indicatore{
+  text-align: center;
+  margin-bottom: 16px;
+  padding-top: 20px;
+}
+
+.indicatore li{
+  display: inline-block;
+}
+
+.posizione_indicatore1{
+  width: 6px;
+  height: 6px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 7px;
+  background-color: black;
+}
+
+.posizione_indicatore{
+  width: 6px;
+  height: 6px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 0 7px;
+  background-color: white;
+}
+
+
+#fourth{
   
 }
