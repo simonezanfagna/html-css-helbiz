@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
+
 .container {
     width: 1110px;
     margin: 0 auto;
@@ -17,19 +21,7 @@
 }
 
 .main-container {
-    width: 80%;
-    margin: 0 auto;
-}
-
-.column {
-    float: left;
-    padding: 0 15px;
-    border: 1px solid black;
-    height: 500px;
-}
-
-.half.column  {
-    width: 50%;
+  padding: 48px 15px;
 }
 
 .one.column  {
@@ -148,9 +140,60 @@ header {
 
 /*** inizio altre sezioni ... ***/
 #second {
-    padding-top: 80px;
+  max-width: 1440px;
+  margin: 40px auto;
+}
+
+.half{
+  width: 48.555%;
+}
+
+.column_left {
+    float: left;
+    padding: 50px 0;
+    margin-right: 40px;
+}
+
+.column_right{
+  float: left;
+  padding: 50px 0;
+}
+
+.column_left, .column_right{
+    background: #fafafa;
 }
 
 .product {
+  text-align: center;
+}
+
+.helbizgo_helbizbike{
+  max-height: 22px;
+  margin: 15px 0;
+}
+
+.product h2{
+  margin: 15px 0;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.product a{
+  color: #0070c8;
+  font-size: 20px;
+  display: block;
+}
+
+.product a:hover{
+  text-decoration: underline;
+  color: #0070c8;
+}
+
+.img_helbizgo_helbizbike{
+  max-width: 200px;
+  margin: 20px 0;
+}
+
+#third{
   
 }
