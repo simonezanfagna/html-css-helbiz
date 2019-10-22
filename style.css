@@ -460,5 +460,26 @@ header {
 }
 
 footer{
-  
+  background-color: black;
+  padding: 100px 0;
+  color: white;
+}
+
+.container_footer{
+  max-width: 1140px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.colonne_footer_width{
+  width: 25%;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.colonne_footer_width h4{
+  padding: 0 20px 16px;
+  font-size: 1em;
 }
