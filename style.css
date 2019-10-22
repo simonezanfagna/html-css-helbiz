@@ -5,6 +5,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+li{
+  list-style-type: none;
+}
+
 a{
   text-decoration: none;
 }
@@ -413,5 +417,48 @@ header {
 }
 
 #instagram{
+  background-image: url("https://helbiz.com/asset/pages/newhome/images/Social-Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 40px;
+  height: 420px;
+  text-align: center;
+  position: relative;
+}
+
+.family{
+  background: #fff;
+  width: 450px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.family_social{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%);
+}
+
+.family_social h2{
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  line-height: 1.2;
+}
+
+.family_social img{
+  height: 25px;
+}
+
+.family_social a{
+  display: inline-block;
+  width: 23.6%;
+}
+
+footer{
   
 }
