@@ -359,7 +359,7 @@ header {
   background-size: 530px,100%;
   min-height: 600px;
   color: white;
-  margin-right: 20px;
+  margin-right: 40px;
   padding-top: 3rem;
   padding-bottom: 3rem;
   float: left;
@@ -390,7 +390,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 600px;
-  margin-left: 20px;
   padding-top: 3rem;
   padding-bottom: 3rem;
   float: left;
@@ -463,6 +462,7 @@ footer{
   background-color: black;
   padding: 100px 0;
   color: white;
+  line-height: 1.5;
 }
 
 .container_footer{
@@ -482,4 +482,84 @@ footer{
 .colonne_footer_width h4{
   padding: 0 20px 16px;
   font-size: 1em;
+}
+
+.product_footer li, .info_footer li, .helbiz_footer li{
+  padding: .25em 20px;
+  color: #696969;
+  font-size: .95em;
+  font-weight: 400;
+}
+
+.product_footer a, .info_footer a, .helbiz_footer a{
+  color: #696969;
+}
+
+.colonne_footer_width a:hover{
+  text-decoration: none;
+}
+
+hr{
+  border-top: 2px solid hsla(0,0%,100%,.1);
+  width: 100%;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.hr_top{
+  margin-top: 6em;
+  margin-bottom: 2em;
+}
+
+.hr_bottom{
+  margin-top: 2em;
+  margin-bottom: 1.75em;
+}
+
+/* .icone_footer{
+  margin-bottom: 1.75em;
+} */
+
+.icone_footer li{
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.icone_footer a{
+  padding: 8px 8px;
+}
+
+.icone_footer img{
+  max-width: 24px;
+  vertical-align: middle;
+}
+
+#twitter{
+  max-width: 21px;
+  vertical-align: middle;
+}
+
+#in{
+  max-width: 17px;
+  vertical-align: middle;
+}
+
+.footer_middle_colonna a{
+  font-size: .85em;
+  margin-top: .2em;
+  color: white;
+  padding: .5rem 1rem;
+}
+
+.footer_bottom{
+  text-align: center;
+}
+
+.footer_bottom li{
+  display: inline-block;
+}
+
+.footer_bottom img{
+  vertical-align: middle;
 }
